@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
     <title>Cosmos</title>
   </head>
   <body>
@@ -16,21 +20,24 @@
           placeholder="Enter a city ..."
           required
         />
-        <input type="submit" value="Search" />
+        <input type="submit" class="button" id="button" value="Search" />
       </form>
     </header>
     <section class="home" id="home">
       <div class="row-1">
         <div class="col-1">
+          <h1 class="city" id="city">Paris</h1>
           <p>
-            20:00 PM <br />
-            Sunday, 23 March 2023
+            <span class="time" id="time">20:00 PM </span><br />
+            <span class="day" id="day">Sunday, 23 March 2023</span>
           </p>
         </div>
-        <div class="col-1">
+        <div class="col-2">
           <div class="weather-app-icon">⛅</div>
-          <div class="weather-app-temperature">12</div>
-          <div class="weather-app-unit">°C</div>
+          <div class="temperature">
+            <div class="weather-app-temperature">12</div>
+            <div class="weather-app-unit">°C</div>
+          </div>
         </div>
       </div>
     </section>
