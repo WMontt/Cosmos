@@ -3,19 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
     <title>Cosmos</title>
   </head>
   <body>
     <header>
       <form action="#">
-        <input type="search" placeholder="Enter a city ..." required />
+        <input
+          type="search"
+          class="Search-input"
+          id="Search-input"
+          placeholder="Enter a city ..."
+          required
+        />
         <input type="submit" value="Search" />
       </form>
     </header>
     <section class="home" id="home">
       <div class="row-1">
-        <div class="col-1">col-1</div>
-        <div class="col-1">col-2</div>
+        <div class="col-1">
+          <p>
+            20:00 PM <br />
+            Sunday, 23 March 2023
+          </p>
+        </div>
+        <div class="col-1">
+          <div class="weather-app-icon">⛅</div>
+          <div class="weather-app-temperature">12</div>
+          <div class="weather-app-unit">°C</div>
+        </div>
       </div>
     </section>
     <main class="weather">
@@ -31,11 +47,15 @@
     </main>
     <footer>
       This project was coded by
-      <a href="" target="_blank"> Wai Mon Thant </a>
+      <a href="https://github.com/WMontt" target="_blank"> Wai Mon Thant </a>
       is
-      <a href="http://" target="_blank">open-sourced on Github</a>
+      <a href="https://github.com/WMontt/Cosmos" target="_blank"
+        >open-sourced on Github</a
+      >
       and
-      <a href="http://" target="_blank"> hosted on Netlify. </a>
+      <a href="https://cosmos-weather.netlify.app/" target="_blank">
+        hosted on Netlify.
+      </a>
     </footer>
   </body>
 </html>
