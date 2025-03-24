@@ -84,7 +84,7 @@ header {
   font-size: 58px;
 }
 
-.temperature {
+.temperature-col {
   display: flex;
 }
 .weather-app-temperature {
